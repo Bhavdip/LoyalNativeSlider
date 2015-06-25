@@ -2,7 +2,7 @@ language: android
 # Turning off caching to avoid caching Issues
 # cache: false
 # Using the new Container-Based Infrastructure
-# sudo: false
+sudo: false
 
 env:
   global:
@@ -15,15 +15,15 @@ env:
 
 before_install:
     # Making sure gradlew has executable permissions
-    # - cd UltimateRecyclerView
+    - cd ..
     - chmod a+x gradlew
     
 android:
   components:
     # Uncomment the lines below if you want to
     # use the latest revision of Android SDK Tools
-    # - platform-tools
-    # - tools
+    - platform-tools
+    - tools
 
     # The SDK version used to compile your project
     - android-22
@@ -31,8 +31,6 @@ android:
     # The BuildTools version used by your project
     - build-tools-22.0.1
     
-    - platform-tools
-    - tools
     
     # Additional components
     - extra-google-google_play_services
