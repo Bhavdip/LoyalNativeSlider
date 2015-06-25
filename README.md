@@ -114,7 +114,7 @@ Visit the Transform [Wiki](https://github.com/jjhesk/LoyalNativeSlider/wiki)
 Please visit [Wiki](https://github.com/daimajia/AndroidImageSlider/wiki) for the mother library
  
 ## Thanks
-
+- [LoyalSlider](http://dimsemenov.com/plugins/royal-slider/)
 - [Picasso](https://github.com/square/picasso)
 - [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids)
 - [ViewPagerTransforms](https://github.com/ToxicBakery/ViewPagerTransforms)
