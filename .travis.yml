@@ -13,10 +13,10 @@ env:
     # General Android settings used in builds
     - ANDROID_TARGET=android-22
 
-before_install:
+# before_install:
     # Making sure gradlew has executable permissions
-    - cd ..
-    - chmod a+x gradlew
+    # - cd ..
+    # - chmod a+x gradlew
     
 android:
   components:
